@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5010/users';
+const API_URL = 'https://ini8-assesment.onrender.com/users';
 
 export const getUsers = () => axios.get(API_URL);
 export const createUser = (user) => axios.post(API_URL, user);
